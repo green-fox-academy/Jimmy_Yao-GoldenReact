@@ -23,7 +23,7 @@ class SimpleGolden extends React.Component {
   changeCount(parameter) {
     const { count } = this.state;
     const result = count + parameter;
-    return () => this.setState({ count: Math.max((result > -1 ? result : count), 0) });
+    return () => this.setState({ count: (result > -1 ? result : count) });
   }
 
   render() {
