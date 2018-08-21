@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import SimpleGolden from './SimpleGoldenAcornApp';
 
 ReactDOM.render(
-  <h1>Hello, Green Fox Academy!</h1>,
+  <SimpleGolden />,
   document.getElementById('root'),
 );
