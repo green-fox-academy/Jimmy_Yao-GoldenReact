@@ -5,6 +5,7 @@ import DisplayAcorn from '../containers/DisplayAcorn';
 
 const AppWithRedux = () => (
   <main>
+    <h1>GoldenAcornApp with Redux</h1>
     <div>
       <BuyAcorn />
       <DisplayAcorn />

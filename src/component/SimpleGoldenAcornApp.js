@@ -30,6 +30,7 @@ class SimpleGolden extends React.Component {
     const { count } = this.state;
     return (
       <div>
+        <h1>GoldenAcornApp with States</h1>
         <Button text="Buy one" func={this.changeCount(1)} />
         <Display text={count} />
         <Button text="Eat one" func={this.changeCount(-1)} />
