@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
-function App(props) {
+export function App(props) {
   const { children } = props;
   return (
     <div>
@@ -17,4 +17,11 @@ App.propTypes = {
   children: PropTypes.node.isRequired,
 };
 
-export default App;
+export function Home() {
+  return (
+    <h1>
+      Golden Acorn is life!
+      <span role="img" aria-label="Chestnut">🌰</span>
+    </h1>
+  );
+}
