@@ -2,13 +2,13 @@ import React from 'react';
 import { BrowserRouter, Route, NavLink } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from './store';
-import App from './component/App';
+import AppWithRedux from './component/AppWithRedux';
 import SimpleGoldenAcornApp from './component/SimpleGoldenAcornApp';
 
 
 const Home = () => (
   <div>
-    <h1>Golden Acorn is life! </h1>
+    <h1> Golden Acorn is life! 🌰</h1>
   </div>
 );
 
@@ -23,7 +23,7 @@ const Redux = () => (
   <div>
     <h1>GoldenAcornApp with Redux</h1>
     <Provider store={store}>
-      <App />
+      <AppWithRedux />
     </Provider>
   </div>
 );

@@ -14,10 +14,3 @@ export function decreaseAmount() {
     count: -1,
   };
 }
-
-export function arrowUp() {
-  return {
-    type: INCREASE_AMOUNT,
-    count: 1,
-  };
-}

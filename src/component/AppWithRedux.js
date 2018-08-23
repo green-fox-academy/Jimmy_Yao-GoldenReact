@@ -3,12 +3,14 @@ import BuyAcorn from '../containers/BuyAcorn';
 import EatAcorn from '../containers/EatAcorn';
 import DisplayAcorn from '../containers/DisplayAcorn';
 
-const App = () => (
+const AppWithRedux = () => (
   <main>
-    <BuyAcorn />
-    <DisplayAcorn />
-    <EatAcorn />
+    <div>
+      <BuyAcorn />
+      <DisplayAcorn />
+      <EatAcorn />
+    </div>
   </main>
 );
 
-export default App;
+export default AppWithRedux;
